@@ -1,0 +1,301 @@
+rank,substation,diagnosis,alarm_date,est_chf_per_year,cost_kind,action,true_fault_sim
+1,S298,sensor_swap,2023-07-16,324604.0,metering,Verify supply/return sensor wiring and meter installation direction; correct metered energy.,sensor_swap
+2,S135,sensor_swap,2023-04-11,275400.0,metering,Verify supply/return sensor wiring and meter installation direction; correct metered energy.,sensor_swap
+3,S157,sensor_swap,2023-06-29,206264.0,metering,Verify supply/return sensor wiring and meter installation direction; correct metered energy.,sensor_swap
+4,S001,sensor_swap,2023-09-02,106197.0,metering,Verify supply/return sensor wiring and meter installation direction; correct metered energy.,sensor_swap
+5,S148,sensor_swap,2023-10-12,51563.0,metering,Verify supply/return sensor wiring and meter installation direction; correct metered energy.,sensor_swap
+6,S007,sensor_swap,2023-04-04,23619.0,metering,Verify supply/return sensor wiring and meter installation direction; correct metered energy.,sensor_swap
+7,S223,wrong_curve,2023-05-07,20774.0,return-temperature penalty,Review the heating curve and parallel shift in the controller; compare with building design.,wrong_curve
+8,S002,fouled_hex,2023-11-11,10935.0,return-temperature penalty,Inspect and clean or descale the heat exchanger; check primary strainer and pressure drop.,fouled_hex
+9,S172,fouled_hex,2023-11-29,9206.0,return-temperature penalty,Inspect and clean or descale the heat exchanger; check primary strainer and pressure drop.,fouled_hex
+10,S128,wrong_curve,2023-10-21,8716.0,return-temperature penalty,Review the heating curve and parallel shift in the controller; compare with building design.,wrong_curve
+11,S087,wrong_curve,2023-02-21,7757.0,return-temperature penalty,Review the heating curve and parallel shift in the controller; compare with building design.,dhw_circulation
+12,S028,sensor_drift,2023-05-04,6605.0,metering,Calibrate or replace the return temperature sensor; re-estimate billed energy.,sensor_drift
+13,S125,dhw_circulation,2023-09-04,6407.0,return-temperature penalty,"Check DHW circulation pump run time, check valves and circulation balancing.",dhw_circulation
+14,S027,wrong_curve,2023-10-21,6399.0,return-temperature penalty,Review the heating curve and parallel shift in the controller; compare with building design.,wrong_curve
+15,S292,bypass,2023-02-16,6399.0,return-temperature penalty,Check bypass / short-circuit valve and any thermostatic bypass setting; close it if not required.,bypass
+16,S266,sensor_drift,2023-10-21,5711.0,metering,Calibrate or replace the return temperature sensor; re-estimate billed energy.,sensor_drift
+17,S126,bypass,2023-07-26,5494.0,return-temperature penalty,Check bypass / short-circuit valve and any thermostatic bypass setting; close it if not required.,sensor_drift
+18,S048,bypass,2023-10-14,5122.0,return-temperature penalty,Check bypass / short-circuit valve and any thermostatic bypass setting; close it if not required.,bypass
+19,S269,fouled_hex,2023-11-29,3612.0,return-temperature penalty,Inspect and clean or descale the heat exchanger; check primary strainer and pressure drop.,fouled_hex
+20,S166,bypass,2023-02-08,2578.0,return-temperature penalty,Check bypass / short-circuit valve and any thermostatic bypass setting; close it if not required.,bypass
+21,S224,sensor_drift,2023-09-02,2320.0,metering,Calibrate or replace the return temperature sensor; re-estimate billed energy.,sensor_drift
+22,S280,bypass,2023-04-23,2113.0,return-temperature penalty,Check bypass / short-circuit valve and any thermostatic bypass setting; close it if not required.,bypass
+23,S090,no_setback,2023-09-29,1891.0,return-temperature penalty,Enable or repair the night setback schedule in the controller.,no_setback
+24,S238,wrong_curve,2023-10-21,1665.0,return-temperature penalty,Review the heating curve and parallel shift in the controller; compare with building design.,wrong_curve
+25,S065,bypass,2023-02-05,1620.0,return-temperature penalty,Check bypass / short-circuit valve and any thermostatic bypass setting; close it if not required.,bypass
+26,S160,dhw_circulation,2023-04-27,1472.0,return-temperature penalty,"Check DHW circulation pump run time, check valves and circulation balancing.",dhw_circulation
+27,S101,bypass,2023-06-21,1467.0,return-temperature penalty,Check bypass / short-circuit valve and any thermostatic bypass setting; close it if not required.,sensor_drift
+28,S221,dhw_circulation,2023-09-16,1452.0,return-temperature penalty,"Check DHW circulation pump run time, check valves and circulation balancing.",dhw_circulation
+29,S204,wrong_curve,2023-05-04,1423.0,return-temperature penalty,Review the heating curve and parallel shift in the controller; compare with building design.,wrong_curve
+30,S024,dhw_circulation,2023-06-01,1329.0,return-temperature penalty,"Check DHW circulation pump run time, check valves and circulation balancing.",dhw_circulation
+31,S047,bypass,2023-07-06,1108.0,return-temperature penalty,Check bypass / short-circuit valve and any thermostatic bypass setting; close it if not required.,bypass
+32,S264,fouled_hex,2023-12-01,1093.0,return-temperature penalty,Inspect and clean or descale the heat exchanger; check primary strainer and pressure drop.,fouled_hex
+33,S055,wrong_curve,2023-04-07,1066.0,return-temperature penalty,Review the heating curve and parallel shift in the controller; compare with building design.,dhw_circulation
+34,S287,wrong_curve,2023-02-24,1047.0,return-temperature penalty,Review the heating curve and parallel shift in the controller; compare with building design.,wrong_curve
+35,S182,bypass,2023-11-21,869.0,return-temperature penalty,Check bypass / short-circuit valve and any thermostatic bypass setting; close it if not required.,fouled_hex
+36,S219,no_setback,2023-09-03,679.0,return-temperature penalty,Enable or repair the night setback schedule in the controller.,no_setback
+37,S282,fouled_hex,2023-12-04,447.0,return-temperature penalty,Inspect and clean or descale the heat exchanger; check primary strainer and pressure drop.,fouled_hex
+38,S106,fouled_hex,2023-11-20,395.0,return-temperature penalty,Inspect and clean or descale the heat exchanger; check primary strainer and pressure drop.,sensor_drift
+39,S152,healthy,,388.0,return-temperature penalty,,healthy
+40,S011,no_setback,2023-04-23,334.0,return-temperature penalty,Enable or repair the night setback schedule in the controller.,no_setback
+41,S200,no_setback,2023-09-03,333.0,return-temperature penalty,Enable or repair the night setback schedule in the controller.,no_setback
+42,S008,healthy,,294.0,return-temperature penalty,,healthy
+43,S012,healthy,,280.0,return-temperature penalty,,healthy
+44,S018,healthy,,257.0,return-temperature penalty,,healthy
+45,S276,healthy,,243.0,return-temperature penalty,,healthy
+46,S186,healthy,,241.0,return-temperature penalty,,healthy
+47,S051,healthy,,234.0,return-temperature penalty,,healthy
+48,S143,healthy,,219.0,return-temperature penalty,,healthy
+49,S254,healthy,,214.0,return-temperature penalty,,healthy
+50,S140,healthy,,212.0,return-temperature penalty,,healthy
+51,S088,healthy,,211.0,return-temperature penalty,,healthy
+52,S165,no_setback,2023-04-17,211.0,return-temperature penalty,Enable or repair the night setback schedule in the controller.,no_setback
+53,S285,healthy,,202.0,return-temperature penalty,,healthy
+54,S229,healthy,,198.0,return-temperature penalty,,healthy
+55,S056,healthy,,196.0,return-temperature penalty,,healthy
+56,S214,healthy,,196.0,return-temperature penalty,,healthy
+57,S189,healthy,,191.0,return-temperature penalty,,healthy
+58,S100,healthy,,191.0,return-temperature penalty,,healthy
+59,S035,no_setback,2023-09-03,190.0,return-temperature penalty,Enable or repair the night setback schedule in the controller.,no_setback
+60,S074,healthy,,187.0,return-temperature penalty,,healthy
+61,S093,healthy,,185.0,return-temperature penalty,,healthy
+62,S061,healthy,,183.0,return-temperature penalty,,healthy
+63,S052,healthy,,169.0,return-temperature penalty,,healthy
+64,S170,healthy,,165.0,return-temperature penalty,,healthy
+65,S248,healthy,,164.0,return-temperature penalty,,healthy
+66,S299,healthy,,159.0,return-temperature penalty,,healthy
+67,S261,healthy,,158.0,return-temperature penalty,,healthy
+68,S142,healthy,,153.0,return-temperature penalty,,healthy
+69,S104,healthy,,152.0,return-temperature penalty,,healthy
+70,S094,healthy,,150.0,return-temperature penalty,,healthy
+71,S240,healthy,,148.0,return-temperature penalty,,healthy
+72,S225,healthy,,147.0,return-temperature penalty,,healthy
+73,S095,healthy,,147.0,return-temperature penalty,,healthy
+74,S030,healthy,,145.0,return-temperature penalty,,healthy
+75,S297,healthy,,145.0,return-temperature penalty,,healthy
+76,S083,healthy,,135.0,return-temperature penalty,,healthy
+77,S085,healthy,,132.0,return-temperature penalty,,healthy
+78,S245,healthy,,131.0,return-temperature penalty,,healthy
+79,S032,healthy,,128.0,return-temperature penalty,,healthy
+80,S081,healthy,,126.0,return-temperature penalty,,healthy
+81,S084,healthy,,124.0,return-temperature penalty,,healthy
+82,S265,healthy,,121.0,return-temperature penalty,,healthy
+83,S185,healthy,,119.0,return-temperature penalty,,healthy
+84,S075,healthy,,117.0,return-temperature penalty,,healthy
+85,S218,healthy,,116.0,return-temperature penalty,,healthy
+86,S197,healthy,,114.0,return-temperature penalty,,healthy
+87,S042,healthy,,111.0,return-temperature penalty,,healthy
+88,S190,healthy,,111.0,return-temperature penalty,,healthy
+89,S009,healthy,,110.0,return-temperature penalty,,healthy
+90,S159,healthy,,106.0,return-temperature penalty,,healthy
+91,S134,healthy,,102.0,return-temperature penalty,,healthy
+92,S258,healthy,,99.0,return-temperature penalty,,healthy
+93,S124,healthy,,97.0,return-temperature penalty,,healthy
+94,S199,healthy,,95.0,return-temperature penalty,,healthy
+95,S288,healthy,,95.0,return-temperature penalty,,healthy
+96,S291,healthy,,94.0,return-temperature penalty,,healthy
+97,S102,healthy,,94.0,return-temperature penalty,,healthy
+98,S255,healthy,,94.0,return-temperature penalty,,healthy
+99,S195,healthy,,92.0,return-temperature penalty,,healthy
+100,S000,healthy,,91.0,return-temperature penalty,,healthy
+101,S068,healthy,,91.0,return-temperature penalty,,healthy
+102,S193,healthy,,89.0,return-temperature penalty,,healthy
+103,S283,healthy,,84.0,return-temperature penalty,,healthy
+104,S025,healthy,,83.0,return-temperature penalty,,healthy
+105,S114,healthy,,83.0,return-temperature penalty,,healthy
+106,S176,healthy,,79.0,return-temperature penalty,,healthy
+107,S026,healthy,,76.0,return-temperature penalty,,healthy
+108,S154,healthy,,76.0,return-temperature penalty,,healthy
+109,S253,healthy,,76.0,return-temperature penalty,,healthy
+110,S021,healthy,,74.0,return-temperature penalty,,healthy
+111,S293,healthy,,73.0,return-temperature penalty,,healthy
+112,S050,healthy,,73.0,return-temperature penalty,,healthy
+113,S020,stuck_valve,2023-11-19,73.0,return-temperature penalty,Inspect primary control valve and actuator (stuck or hunting); test full travel.,healthy
+114,S274,healthy,,73.0,return-temperature penalty,,healthy
+115,S250,healthy,,72.0,return-temperature penalty,,healthy
+116,S146,healthy,,72.0,return-temperature penalty,,healthy
+117,S278,healthy,,71.0,return-temperature penalty,,healthy
+118,S096,healthy,,71.0,return-temperature penalty,,healthy
+119,S113,healthy,,69.0,return-temperature penalty,,healthy
+120,S257,healthy,,68.0,return-temperature penalty,,healthy
+121,S043,healthy,,66.0,return-temperature penalty,,healthy
+122,S131,healthy,,63.0,return-temperature penalty,,healthy
+123,S063,healthy,,61.0,return-temperature penalty,,healthy
+124,S044,healthy,,60.0,return-temperature penalty,,healthy
+125,S260,healthy,,58.0,return-temperature penalty,,healthy
+126,S211,healthy,,58.0,return-temperature penalty,,healthy
+127,S210,healthy,,55.0,return-temperature penalty,,healthy
+128,S178,healthy,,54.0,return-temperature penalty,,healthy
+129,S246,healthy,,53.0,return-temperature penalty,,healthy
+130,S272,healthy,,52.0,return-temperature penalty,,healthy
+131,S111,healthy,,51.0,return-temperature penalty,,healthy
+132,S014,healthy,,49.0,return-temperature penalty,,healthy
+133,S099,healthy,,49.0,return-temperature penalty,,healthy
+134,S022,healthy,,48.0,return-temperature penalty,,healthy
+135,S175,healthy,,48.0,return-temperature penalty,,healthy
+136,S078,healthy,,47.0,return-temperature penalty,,healthy
+137,S129,healthy,,47.0,return-temperature penalty,,healthy
+138,S217,healthy,,46.0,return-temperature penalty,,healthy
+139,S262,healthy,,45.0,return-temperature penalty,,healthy
+140,S045,healthy,,44.0,return-temperature penalty,,healthy
+141,S174,healthy,,43.0,return-temperature penalty,,healthy
+142,S215,healthy,,42.0,return-temperature penalty,,healthy
+143,S192,healthy,,42.0,return-temperature penalty,,healthy
+144,S091,healthy,,41.0,return-temperature penalty,,healthy
+145,S220,healthy,,40.0,return-temperature penalty,,healthy
+146,S017,healthy,,40.0,return-temperature penalty,,healthy
+147,S205,healthy,,40.0,return-temperature penalty,,healthy
+148,S163,healthy,,39.0,return-temperature penalty,,healthy
+149,S054,healthy,,39.0,return-temperature penalty,,healthy
+150,S171,healthy,,39.0,return-temperature penalty,,healthy
+151,S247,healthy,,38.0,return-temperature penalty,,healthy
+152,S147,healthy,,37.0,return-temperature penalty,,healthy
+153,S184,healthy,,37.0,return-temperature penalty,,healthy
+154,S198,healthy,,36.0,return-temperature penalty,,healthy
+155,S277,healthy,,36.0,return-temperature penalty,,healthy
+156,S236,healthy,,36.0,return-temperature penalty,,healthy
+157,S136,healthy,,35.0,return-temperature penalty,,healthy
+158,S231,healthy,,35.0,return-temperature penalty,,healthy
+159,S064,healthy,,35.0,return-temperature penalty,,healthy
+160,S112,healthy,,34.0,return-temperature penalty,,healthy
+161,S123,healthy,,34.0,return-temperature penalty,,healthy
+162,S080,healthy,,33.0,return-temperature penalty,,healthy
+163,S249,healthy,,31.0,return-temperature penalty,,healthy
+164,S127,healthy,,31.0,return-temperature penalty,,healthy
+165,S019,healthy,,30.0,return-temperature penalty,,healthy
+166,S177,healthy,,30.0,return-temperature penalty,,healthy
+167,S116,healthy,,30.0,return-temperature penalty,,healthy
+168,S071,healthy,,30.0,return-temperature penalty,,healthy
+169,S004,healthy,,30.0,return-temperature penalty,,healthy
+170,S164,healthy,,29.0,return-temperature penalty,,healthy
+171,S179,healthy,,29.0,return-temperature penalty,,healthy
+172,S203,healthy,,29.0,return-temperature penalty,,healthy
+173,S226,healthy,,29.0,return-temperature penalty,,healthy
+174,S290,healthy,,28.0,return-temperature penalty,,healthy
+175,S251,healthy,,28.0,return-temperature penalty,,healthy
+176,S066,healthy,,28.0,return-temperature penalty,,healthy
+177,S183,healthy,,28.0,return-temperature penalty,,healthy
+178,S202,healthy,,27.0,return-temperature penalty,,healthy
+179,S268,healthy,,26.0,return-temperature penalty,,healthy
+180,S222,healthy,,25.0,return-temperature penalty,,healthy
+181,S153,healthy,,25.0,return-temperature penalty,,healthy
+182,S239,healthy,,25.0,return-temperature penalty,,healthy
+183,S119,healthy,,25.0,return-temperature penalty,,healthy
+184,S244,healthy,,25.0,return-temperature penalty,,healthy
+185,S029,healthy,,24.0,return-temperature penalty,,healthy
+186,S059,healthy,,24.0,return-temperature penalty,,healthy
+187,S227,healthy,,24.0,return-temperature penalty,,healthy
+188,S243,healthy,,24.0,return-temperature penalty,,healthy
+189,S181,healthy,,24.0,return-temperature penalty,,healthy
+190,S213,healthy,,24.0,return-temperature penalty,,healthy
+191,S252,healthy,,23.0,return-temperature penalty,,healthy
+192,S161,healthy,,23.0,return-temperature penalty,,healthy
+193,S281,healthy,,23.0,return-temperature penalty,,healthy
+194,S016,healthy,,22.0,return-temperature penalty,,healthy
+195,S237,healthy,,22.0,return-temperature penalty,,healthy
+196,S263,healthy,,21.0,return-temperature penalty,,healthy
+197,S284,healthy,,21.0,return-temperature penalty,,healthy
+198,S155,healthy,,21.0,return-temperature penalty,,healthy
+199,S191,healthy,,20.0,return-temperature penalty,,healthy
+200,S201,healthy,,20.0,return-temperature penalty,,healthy
+201,S015,healthy,,20.0,return-temperature penalty,,healthy
+202,S259,healthy,,19.0,return-temperature penalty,,healthy
+203,S145,healthy,,19.0,return-temperature penalty,,healthy
+204,S082,healthy,,19.0,return-temperature penalty,,healthy
+205,S105,healthy,,17.0,return-temperature penalty,,healthy
+206,S206,healthy,,17.0,return-temperature penalty,,healthy
+207,S121,healthy,,17.0,return-temperature penalty,,healthy
+208,S023,healthy,,16.0,return-temperature penalty,,healthy
+209,S173,healthy,,16.0,return-temperature penalty,,healthy
+210,S270,healthy,,16.0,return-temperature penalty,,healthy
+211,S067,healthy,,16.0,return-temperature penalty,,healthy
+212,S010,healthy,,16.0,return-temperature penalty,,healthy
+213,S089,healthy,,16.0,return-temperature penalty,,healthy
+214,S046,healthy,,16.0,return-temperature penalty,,healthy
+215,S122,healthy,,16.0,return-temperature penalty,,healthy
+216,S039,healthy,,15.0,return-temperature penalty,,healthy
+217,S098,healthy,,15.0,return-temperature penalty,,healthy
+218,S013,healthy,,15.0,return-temperature penalty,,healthy
+219,S168,healthy,,15.0,return-temperature penalty,,healthy
+220,S233,healthy,,14.0,return-temperature penalty,,healthy
+221,S207,healthy,,14.0,return-temperature penalty,,healthy
+222,S208,healthy,,14.0,return-temperature penalty,,healthy
+223,S060,healthy,,14.0,return-temperature penalty,,healthy
+224,S149,healthy,,14.0,return-temperature penalty,,healthy
+225,S180,healthy,,14.0,return-temperature penalty,,healthy
+226,S144,healthy,,14.0,return-temperature penalty,,healthy
+227,S033,healthy,,13.0,return-temperature penalty,,healthy
+228,S077,healthy,,13.0,return-temperature penalty,,healthy
+229,S097,healthy,,13.0,return-temperature penalty,,healthy
+230,S070,healthy,,13.0,return-temperature penalty,,healthy
+231,S294,healthy,,13.0,return-temperature penalty,,healthy
+232,S137,healthy,,13.0,return-temperature penalty,,healthy
+233,S079,healthy,,12.0,return-temperature penalty,,healthy
+234,S103,healthy,,12.0,return-temperature penalty,,healthy
+235,S230,healthy,,12.0,return-temperature penalty,,healthy
+236,S232,healthy,,12.0,return-temperature penalty,,healthy
+237,S209,healthy,,12.0,return-temperature penalty,,healthy
+238,S151,healthy,,12.0,return-temperature penalty,,healthy
+239,S267,healthy,,12.0,return-temperature penalty,,healthy
+240,S167,healthy,,12.0,return-temperature penalty,,healthy
+241,S150,healthy,,11.0,return-temperature penalty,,healthy
+242,S275,healthy,,11.0,return-temperature penalty,,healthy
+243,S212,healthy,,10.0,return-temperature penalty,,healthy
+244,S115,healthy,,10.0,return-temperature penalty,,healthy
+245,S108,healthy,,10.0,return-temperature penalty,,healthy
+246,S062,healthy,,9.0,return-temperature penalty,,healthy
+247,S256,healthy,,9.0,return-temperature penalty,,healthy
+248,S049,healthy,,9.0,return-temperature penalty,,healthy
+249,S187,healthy,,9.0,return-temperature penalty,,healthy
+250,S169,healthy,,9.0,return-temperature penalty,,healthy
+251,S107,healthy,,9.0,return-temperature penalty,,healthy
+252,S194,healthy,,8.0,return-temperature penalty,,healthy
+253,S196,healthy,,8.0,return-temperature penalty,,healthy
+254,S118,healthy,,7.0,return-temperature penalty,,healthy
+255,S036,healthy,,6.0,return-temperature penalty,,healthy
+256,S031,healthy,,6.0,return-temperature penalty,,healthy
+257,S058,healthy,,6.0,return-temperature penalty,,healthy
+258,S158,healthy,,6.0,return-temperature penalty,,healthy
+259,S109,healthy,,6.0,return-temperature penalty,,healthy
+260,S139,healthy,,5.0,return-temperature penalty,,healthy
+261,S037,healthy,,5.0,return-temperature penalty,,healthy
+262,S069,healthy,,5.0,return-temperature penalty,,healthy
+263,S073,healthy,,4.0,return-temperature penalty,,healthy
+264,S286,healthy,,4.0,return-temperature penalty,,healthy
+265,S053,healthy,,4.0,return-temperature penalty,,healthy
+266,S117,healthy,,3.0,return-temperature penalty,,healthy
+267,S279,healthy,,3.0,return-temperature penalty,,healthy
+268,S162,healthy,,3.0,return-temperature penalty,,healthy
+269,S003,healthy,,3.0,return-temperature penalty,,healthy
+270,S057,healthy,,1.0,return-temperature penalty,,healthy
+271,S242,healthy,,1.0,return-temperature penalty,,healthy
+272,S040,healthy,,0.0,return-temperature penalty,,healthy
+273,S005,healthy,,0.0,return-temperature penalty,,healthy
+274,S006,healthy,,0.0,return-temperature penalty,,healthy
+275,S034,healthy,,0.0,return-temperature penalty,,healthy
+276,S038,stuck_valve,2023-04-27,0.0,return-temperature penalty,Inspect primary control valve and actuator (stuck or hunting); test full travel.,stuck_valve
+277,S041,healthy,,0.0,return-temperature penalty,,healthy
+278,S072,healthy,,0.0,return-temperature penalty,,healthy
+279,S076,healthy,,0.0,return-temperature penalty,,healthy
+280,S086,healthy,,0.0,return-temperature penalty,,healthy
+281,S092,no_setback,2023-04-08,0.0,return-temperature penalty,Enable or repair the night setback schedule in the controller.,stuck_valve
+282,S110,healthy,,0.0,return-temperature penalty,,healthy
+283,S120,healthy,,0.0,return-temperature penalty,,healthy
+284,S130,healthy,,0.0,return-temperature penalty,,healthy
+285,S132,healthy,,0.0,return-temperature penalty,,healthy
+286,S133,healthy,,0.0,return-temperature penalty,,healthy
+287,S138,healthy,,0.0,return-temperature penalty,,healthy
+288,S141,no_setback,2023-04-08,0.0,return-temperature penalty,Enable or repair the night setback schedule in the controller.,stuck_valve
+289,S156,healthy,,0.0,return-temperature penalty,,healthy
+290,S188,healthy,,0.0,return-temperature penalty,,healthy
+291,S216,stuck_valve,2023-04-27,0.0,return-temperature penalty,Inspect primary control valve and actuator (stuck or hunting); test full travel.,stuck_valve
+292,S228,healthy,,0.0,return-temperature penalty,,healthy
+293,S234,healthy,,0.0,return-temperature penalty,,healthy
+294,S235,no_setback,2023-03-27,0.0,return-temperature penalty,Enable or repair the night setback schedule in the controller.,stuck_valve
+295,S241,stuck_valve,2023-04-17,0.0,return-temperature penalty,Inspect primary control valve and actuator (stuck or hunting); test full travel.,stuck_valve
+296,S271,healthy,,0.0,return-temperature penalty,,healthy
+297,S273,healthy,,0.0,return-temperature penalty,,healthy
+298,S289,healthy,,0.0,return-temperature penalty,,healthy
+299,S295,healthy,,0.0,return-temperature penalty,,healthy
+300,S296,healthy,,0.0,return-temperature penalty,,healthy

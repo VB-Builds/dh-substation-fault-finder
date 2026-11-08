@@ -1,0 +1,282 @@
+{
+  "network": {
+    "substations": 300,
+    "faulty": 48,
+    "fault_types": 8,
+    "test_days": 365,
+    "weather": "Open-Meteo archive, Zurich, hourly 2 m temperature, 2022 (history) + 2023 (test)"
+  },
+  "tariff": {
+    "chf_per_km3": 0.05,
+    "energy_chf_per_kwh": 0.17
+  },
+  "detection": {
+    "rules": {
+      "tp": 48,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9795918367346939,
+      "recall": 1.0,
+      "f1": 0.9896907216494846,
+      "false_alarm_substations": 1,
+      "n_healthy": 252
+    },
+    "supervised": {
+      "tp": 48,
+      "fp": 29,
+      "fn": 0,
+      "precision": 0.6233766233766234,
+      "recall": 1.0,
+      "f1": 0.768,
+      "false_alarm_substations": 27,
+      "n_healthy": 252
+    },
+    "anomaly": {
+      "tp": 47,
+      "fp": 11,
+      "fn": 1,
+      "precision": 0.8103448275862069,
+      "recall": 0.9791666666666666,
+      "f1": 0.8867924528301887,
+      "false_alarm_substations": 11,
+      "n_healthy": 252
+    }
+  },
+  "per_type": {
+    "rules": [
+      {
+        "fault": "fouled_hex",
+        "n": 6,
+        "detected": 6,
+        "tp": 5,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.8333,
+        "recall": 0.8333,
+        "f1": 0.8333
+      },
+      {
+        "fault": "bypass",
+        "n": 6,
+        "detected": 6,
+        "tp": 6,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      {
+        "fault": "stuck_valve",
+        "n": 6,
+        "detected": 6,
+        "tp": 3,
+        "fp": 1,
+        "fn": 3,
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1": 0.6
+      },
+      {
+        "fault": "wrong_curve",
+        "n": 6,
+        "detected": 6,
+        "tp": 6,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      {
+        "fault": "dhw_circulation",
+        "n": 6,
+        "detected": 6,
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8
+      },
+      {
+        "fault": "sensor_swap",
+        "n": 6,
+        "detected": 6,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "fault": "sensor_drift",
+        "n": 6,
+        "detected": 6,
+        "tp": 3,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      {
+        "fault": "no_setback",
+        "n": 6,
+        "detected": 6,
+        "tp": 6,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8
+      }
+    ],
+    "supervised": [
+      {
+        "fault": "fouled_hex",
+        "n": 6,
+        "detected": 6,
+        "tp": 5,
+        "fp": 5,
+        "fn": 1,
+        "precision": 0.5,
+        "recall": 0.8333,
+        "f1": 0.625
+      },
+      {
+        "fault": "bypass",
+        "n": 6,
+        "detected": 6,
+        "tp": 3,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      {
+        "fault": "stuck_valve",
+        "n": 6,
+        "detected": 6,
+        "tp": 6,
+        "fp": 7,
+        "fn": 0,
+        "precision": 0.4615,
+        "recall": 1.0,
+        "f1": 0.6316
+      },
+      {
+        "fault": "wrong_curve",
+        "n": 6,
+        "detected": 6,
+        "tp": 6,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.5455,
+        "recall": 1.0,
+        "f1": 0.7059
+      },
+      {
+        "fault": "dhw_circulation",
+        "n": 6,
+        "detected": 6,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "fault": "sensor_swap",
+        "n": 6,
+        "detected": 6,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "fault": "sensor_drift",
+        "n": 6,
+        "detected": 6,
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8333,
+        "f1": 0.9091
+      },
+      {
+        "fault": "no_setback",
+        "n": 6,
+        "detected": 6,
+        "tp": 6,
+        "fp": 15,
+        "fn": 0,
+        "precision": 0.2857,
+        "recall": 1.0,
+        "f1": 0.4444
+      }
+    ]
+  },
+  "macro_f1_diagnosis": {
+    "rules": 0.7946428571428571,
+    "supervised": 0.7478329150639522
+  },
+  "diagnosis_accuracy_of_detected": {
+    "rules": 0.8125,
+    "supervised": 0.8958333333333334
+  },
+  "delay_days": {
+    "median": 14.5,
+    "p90": 139.60000000000002,
+    "median_by_type": {
+      "bypass": 8.5,
+      "dhw_circulation": 9.5,
+      "fouled_hex": 160.5,
+      "no_setback": 20.5,
+      "sensor_drift": 71.0,
+      "sensor_swap": 8.0,
+      "stuck_valve": 15.0,
+      "wrong_curve": 26.0
+    }
+  },
+  "delay_days_anomaly_model": {
+    "median": 17.0
+  },
+  "ranking": {
+    "k": 30,
+    "hits": 30,
+    "share_true_faults_top": 1.0,
+    "recall_of_all_faults": 0.625,
+    "max_possible_share": 1.0,
+    "base_rate": 0.16
+  },
+  "ranking_top20pct": {
+    "k": 60,
+    "hits": 42,
+    "share_true_faults_top": 0.7,
+    "recall_of_all_faults": 0.875,
+    "max_possible_share": 0.8,
+    "base_rate": 0.16
+  },
+  "chf": {
+    "true_penalty_all_physical_faults_if_never_fixed": 71365.34814256144,
+    "true_recoverable_after_alarm_detected_physical": 67945.44782190853,
+    "estimated_recoverable_after_alarm_detected_physical": 66740.56900776403,
+    "missed_or_late_physical": 3419.900320652916,
+    "relative_error_estimate": -0.01773303220110637,
+    "estimated_metering_exposure_sensor_faults": 425806.6773203354,
+    "spearman_est_vs_true_rate": 0.9901726552805913
+  },
+  "headline": {
+    "detection_precision": 0.9795918367346939,
+    "detection_recall": 1.0,
+    "detection_f1": 0.9896907216494846
+  }
+}

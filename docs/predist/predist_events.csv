@@ -1,0 +1,239 @@
+kind,event_id,manufacturer,substation,method,evaluable,alarm,lead_days,reason,label,monitoring_potential
+fault,1,1,10,signature,False,False,,meter data coverage below 60 percent,Motorised control valve (primary side): Actuator defective,3.4
+fault,1,1,10,isolation_forest,False,False,,meter data coverage below 60 percent,Motorised control valve (primary side): Actuator defective,3.4
+fault,3,1,12,signature,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,3,1,12,isolation_forest,True,True,1.4555555555555555,,Control unit: Incorrect parameterisation,4.0
+fault,5,1,11,signature,True,False,,,Failure of the heating circuit pump,3.8
+fault,5,1,11,isolation_forest,True,False,,,Failure of the heating circuit pump,3.8
+fault,6,1,21,signature,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,6,1,21,isolation_forest,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,7,1,26,signature,True,True,8.443055555555556,,Incorrect setting of the differential pressure regulator,3.1
+fault,7,1,26,isolation_forest,True,True,2.4430555555555555,,Incorrect setting of the differential pressure regulator,3.1
+fault,10,1,30,signature,True,False,,,Leakage,1.75
+fault,10,1,30,isolation_forest,True,True,14.627777777777778,,Leakage,1.75
+fault,13,1,24,signature,True,False,,,Failure of the heating circuit pump,3.8
+fault,13,1,24,isolation_forest,True,False,,,Failure of the heating circuit pump,3.8
+fault,15,1,29,signature,True,False,,,Failure of the domestic hot water storage charging pump,3.7
+fault,15,1,29,isolation_forest,True,False,,,Failure of the domestic hot water storage charging pump,3.7
+fault,20,1,11,signature,True,True,14.450694444444444,,"Safety relief valve: Water loss, does not close properly",2.0
+fault,20,1,11,isolation_forest,True,False,,,"Safety relief valve: Water loss, does not close properly",2.0
+fault,23,1,27,signature,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,23,1,27,isolation_forest,True,True,2.5395833333333333,,Control unit: Incorrect parameterisation,4.0
+fault,24,1,13,signature,True,True,14.636805555555556,,Failure of the heating circuit pump,3.8
+fault,24,1,13,isolation_forest,True,False,,,Failure of the heating circuit pump,3.8
+fault,29,1,17,signature,False,False,,meter data coverage below 60 percent,Motorised control valve (primary side): Control valve jams when closed,3.2
+fault,29,1,17,isolation_forest,False,False,,meter data coverage below 60 percent,Motorised control valve (primary side): Control valve jams when closed,3.2
+fault,32,1,21,signature,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,32,1,21,isolation_forest,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,34,1,20,signature,True,False,,,unknown,
+fault,34,1,20,isolation_forest,True,False,,,unknown,
+fault,37,1,19,signature,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,37,1,19,isolation_forest,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,38,1,24,signature,True,False,,,Incorrect setting of the differential pressure regulator,3.1
+fault,38,1,24,isolation_forest,True,False,,,Incorrect setting of the differential pressure regulator,3.1
+fault,40,1,24,signature,True,True,0.32430555555555557,,"Safety relief valve: Water loss, does not close properly",2.0
+fault,40,1,24,isolation_forest,True,False,,,"Safety relief valve: Water loss, does not close properly",2.0
+fault,44,1,8,signature,True,False,,,Temperature monitor/controller defective,3.0
+fault,44,1,8,isolation_forest,True,False,,,Temperature monitor/controller defective,3.0
+fault,45,1,31,signature,True,False,,,"Heat exchanger: Leakage, external",2.0
+fault,45,1,31,isolation_forest,True,False,,,"Heat exchanger: Leakage, external",2.0
+fault,47,1,28,signature,True,True,4.454861111111111,,Failure of the heating circuit pump,3.8
+fault,47,1,28,isolation_forest,True,True,8.45486111111111,,Failure of the heating circuit pump,3.8
+fault,49,1,18,signature,True,True,14.30486111111111,,Control unit: Incorrect parameterisation,4.0
+fault,49,1,18,isolation_forest,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,52,1,21,signature,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,52,1,21,isolation_forest,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,53,1,13,signature,True,False,,,Shut-off valve closed,2.8
+fault,53,1,13,isolation_forest,True,False,,,Shut-off valve closed,2.8
+fault,57,1,9,signature,True,False,,,Differential pressure regulator defective,3.2
+fault,57,1,9,isolation_forest,True,False,,,Differential pressure regulator defective,3.2
+fault,62,1,21,signature,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,62,1,21,isolation_forest,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,64,1,6,signature,True,True,3.4034722222222222,,Differential pressure regulator defective,3.2
+fault,64,1,6,isolation_forest,True,True,3.4034722222222222,,Differential pressure regulator defective,3.2
+fault,65,1,11,signature,True,False,,,Leakage,1.75
+fault,65,1,11,isolation_forest,True,True,0.4986111111111111,,Leakage,1.75
+fault,67,1,7,signature,True,False,,,Motorised control valve (primary side) defective,3.4
+fault,67,1,7,isolation_forest,True,False,,,Motorised control valve (primary side) defective,3.4
+fault,1,2,24,signature,True,True,1.4659722222222222,,Shut-off valve closed,2.8
+fault,1,2,24,isolation_forest,True,True,1.4659722222222222,,Shut-off valve closed,2.8
+fault,2,2,53,signature,True,True,4.416666666666667,,Incorrect setting of the differential pressure regulator,3.1
+fault,2,2,53,isolation_forest,True,True,4.416666666666667,,Incorrect setting of the differential pressure regulator,3.1
+fault,3,2,45,signature,True,False,,,Motorised control valve (primary side): Incorrect setting of the actuator travel time,3.3
+fault,3,2,45,isolation_forest,True,True,10.508333333333333,,Motorised control valve (primary side): Incorrect setting of the actuator travel time,3.3
+fault,5,2,8,signature,True,False,,,Leakage,1.75
+fault,5,2,8,isolation_forest,True,False,,,Leakage,1.75
+fault,6,2,35,signature,True,False,,,Leakage,1.75
+fault,6,2,35,isolation_forest,True,False,,,Leakage,1.75
+fault,8,2,59,signature,True,False,,,Failure of the heating circuit pump,3.8
+fault,8,2,59,isolation_forest,True,False,,,Failure of the heating circuit pump,3.8
+fault,10,2,18,signature,True,True,5.4534722222222225,,Leakage,1.75
+fault,10,2,18,isolation_forest,True,True,5.4534722222222225,,Leakage,1.75
+fault,12,2,43,signature,True,True,1.5243055555555556,,Strainer (secondary side): Poor flow rate,3.6
+fault,12,2,43,isolation_forest,True,True,1.5243055555555556,,Strainer (secondary side): Poor flow rate,3.6
+fault,13,2,15,signature,True,True,29.343055555555555,,Leakage,1.75
+fault,13,2,15,isolation_forest,True,True,23.343055555555555,,Leakage,1.75
+fault,18,2,11,signature,True,True,11.414583333333333,,Incorrect setting of the differential pressure regulator,3.1
+fault,18,2,11,isolation_forest,True,True,11.414583333333333,,Incorrect setting of the differential pressure regulator,3.1
+fault,20,2,50,signature,True,False,,,Failure of the domestic hot water storage charging pump,3.7
+fault,20,2,50,isolation_forest,True,False,,,Failure of the domestic hot water storage charging pump,3.7
+fault,21,2,53,signature,True,True,3.4097222222222223,,Failure of the domestic hot water storage charging pump,3.7
+fault,21,2,53,isolation_forest,True,True,5.409722222222222,,Failure of the domestic hot water storage charging pump,3.7
+fault,22,2,26,signature,True,False,,,Incorrect setting of the differential pressure regulator,3.1
+fault,22,2,26,isolation_forest,True,True,3.375,,Incorrect setting of the differential pressure regulator,3.1
+fault,25,2,10,signature,True,False,,,Failure of the heating circuit pump,3.8
+fault,25,2,10,isolation_forest,True,True,2.4805555555555556,,Failure of the heating circuit pump,3.8
+fault,26,2,39,signature,True,False,,,Air in the piping system,2.1
+fault,26,2,39,isolation_forest,True,True,1.6354166666666667,,Air in the piping system,2.1
+fault,28,2,52,signature,True,False,,,Low pre-charge at the expansion vessel,2.9
+fault,28,2,52,isolation_forest,True,False,,,Low pre-charge at the expansion vessel,2.9
+fault,29,2,19,signature,True,False,,,Leakage,1.75
+fault,29,2,19,isolation_forest,True,False,,,Leakage,1.75
+fault,30,2,21,signature,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,30,2,21,isolation_forest,True,False,,,Control unit: Incorrect parameterisation,4.0
+fault,31,2,16,signature,True,False,,,Motorised control valve (primary side): Actuator defective,3.4
+fault,31,2,16,isolation_forest,True,False,,,Motorised control valve (primary side): Actuator defective,3.4
+fault,32,2,10,signature,True,False,,,unknown,
+fault,32,2,10,isolation_forest,True,False,,,unknown,
+fault,35,2,4,signature,True,False,,,unknown,
+fault,35,2,4,isolation_forest,True,False,,,unknown,
+fault,36,2,20,signature,True,False,,,Failure of the domestic hot water storage charging pump,3.7
+fault,36,2,20,isolation_forest,True,True,10.375,,Failure of the domestic hot water storage charging pump,3.7
+fault,37,2,4,signature,True,False,,,unknown,
+fault,37,2,4,isolation_forest,True,True,11.360416666666667,,unknown,
+fault,38,2,10,signature,True,True,0.4048611111111111,,Incorrect setting of the differential pressure regulator,3.1
+fault,38,2,10,isolation_forest,True,False,,,Incorrect setting of the differential pressure regulator,3.1
+fault,40,2,10,signature,True,False,,,unknown,
+fault,40,2,10,isolation_forest,True,False,,,unknown,
+fault,41,2,4,signature,True,True,9.440277777777778,,Air in the piping system,2.1
+fault,41,2,4,isolation_forest,True,True,10.440277777777778,,Air in the piping system,2.1
+normal,2,1,9,signature,True,False,,,,
+normal,2,1,9,isolation_forest,True,False,,,,
+normal,4,1,15,signature,True,False,,,,
+normal,4,1,15,isolation_forest,True,False,,,,
+normal,8,1,6,signature,True,False,,,,
+normal,8,1,6,isolation_forest,True,False,,,,
+normal,12,1,19,signature,True,False,,,,
+normal,12,1,19,isolation_forest,True,False,,,,
+normal,14,1,26,signature,True,False,,,,
+normal,14,1,26,isolation_forest,True,False,,,,
+normal,16,1,17,signature,False,False,,meter data coverage below 60 percent,,
+normal,16,1,17,isolation_forest,False,False,,meter data coverage below 60 percent,,
+normal,17,1,2,signature,True,False,,,,
+normal,17,1,2,isolation_forest,True,False,,,,
+normal,18,1,16,signature,True,False,,,,
+normal,18,1,16,isolation_forest,True,False,,,,
+normal,19,1,8,signature,False,False,,meter data coverage below 60 percent,,
+normal,19,1,8,isolation_forest,False,False,,meter data coverage below 60 percent,,
+normal,21,1,1,signature,True,False,,,,
+normal,21,1,1,isolation_forest,True,False,,,,
+normal,22,1,5,signature,True,False,,,,
+normal,22,1,5,isolation_forest,True,False,,,,
+normal,25,1,20,signature,True,False,,,,
+normal,25,1,20,isolation_forest,True,False,,,,
+normal,26,1,4,signature,True,False,,,,
+normal,26,1,4,isolation_forest,True,False,,,,
+normal,27,1,12,signature,True,False,,,,
+normal,27,1,12,isolation_forest,True,False,,,,
+normal,28,1,7,signature,False,False,,meter data coverage below 60 percent,,
+normal,28,1,7,isolation_forest,False,False,,meter data coverage below 60 percent,,
+normal,30,1,16,signature,True,False,,,,
+normal,30,1,16,isolation_forest,True,False,,,,
+normal,31,1,3,signature,True,False,,,,
+normal,31,1,3,isolation_forest,True,False,,,,
+normal,33,1,3,signature,True,False,,,,
+normal,33,1,3,isolation_forest,True,False,,,,
+normal,35,1,11,signature,True,False,,,,
+normal,35,1,11,isolation_forest,True,False,,,,
+normal,39,1,15,signature,True,False,,,,
+normal,39,1,15,isolation_forest,True,False,,,,
+normal,41,1,2,signature,False,False,,test data < 2 days,,
+normal,41,1,2,isolation_forest,False,False,,test data < 2 days,,
+normal,42,1,22,signature,True,False,,,,
+normal,42,1,22,isolation_forest,True,False,,,,
+normal,43,1,25,signature,True,False,,,,
+normal,43,1,25,isolation_forest,True,False,,,,
+normal,46,1,4,signature,True,False,,,,
+normal,46,1,4,isolation_forest,True,False,,,,
+normal,48,1,11,signature,True,False,,,,
+normal,48,1,11,isolation_forest,True,False,,,,
+normal,50,1,17,signature,True,False,,,,
+normal,50,1,17,isolation_forest,True,False,,,,
+normal,51,1,20,signature,True,False,,,,
+normal,51,1,20,isolation_forest,True,False,,,,
+normal,54,1,22,signature,True,False,,,,
+normal,54,1,22,isolation_forest,True,False,,,,
+normal,55,1,23,signature,True,False,,,,
+normal,55,1,23,isolation_forest,True,False,,,,
+normal,56,1,2,signature,True,False,,,,
+normal,56,1,2,isolation_forest,True,False,,,,
+normal,58,1,5,signature,True,False,,,,
+normal,58,1,5,isolation_forest,True,False,,,,
+normal,59,1,22,signature,True,False,,,,
+normal,59,1,22,isolation_forest,True,False,,,,
+normal,61,1,14,signature,True,False,,,,
+normal,61,1,14,isolation_forest,True,False,,,,
+normal,66,1,19,signature,True,False,,,,
+normal,66,1,19,isolation_forest,True,False,,,,
+normal,68,1,13,signature,True,False,,,,
+normal,68,1,13,isolation_forest,True,False,,,,
+normal,43,2,24,signature,True,False,,,,
+normal,43,2,24,isolation_forest,True,False,,,,
+normal,44,2,53,signature,True,False,,,,
+normal,44,2,53,isolation_forest,True,False,,,,
+normal,45,2,53,signature,True,False,,,,
+normal,45,2,53,isolation_forest,True,False,,,,
+normal,46,2,8,signature,True,False,,,,
+normal,46,2,8,isolation_forest,True,False,,,,
+normal,47,2,35,signature,True,False,,,,
+normal,47,2,35,isolation_forest,True,False,,,,
+normal,48,2,59,signature,True,False,,,,
+normal,48,2,59,isolation_forest,True,False,,,,
+normal,49,2,43,signature,True,False,,,,
+normal,49,2,43,isolation_forest,True,False,,,,
+normal,50,2,11,signature,True,False,,,,
+normal,50,2,11,isolation_forest,True,False,,,,
+normal,51,2,26,signature,True,False,,,,
+normal,51,2,26,isolation_forest,True,False,,,,
+normal,52,2,52,signature,True,True,,,,
+normal,52,2,52,isolation_forest,True,False,,,,
+normal,53,2,52,signature,True,False,,,,
+normal,53,2,52,isolation_forest,True,False,,,,
+normal,54,2,52,signature,True,False,,,,
+normal,54,2,52,isolation_forest,True,False,,,,
+normal,55,2,52,signature,True,False,,,,
+normal,55,2,52,isolation_forest,True,False,,,,
+normal,56,2,19,signature,True,False,,,,
+normal,56,2,19,isolation_forest,True,False,,,,
+normal,57,2,19,signature,True,False,,,,
+normal,57,2,19,isolation_forest,True,False,,,,
+normal,58,2,19,signature,True,False,,,,
+normal,58,2,19,isolation_forest,True,False,,,,
+normal,59,2,10,signature,True,False,,,,
+normal,59,2,10,isolation_forest,True,False,,,,
+normal,60,2,10,signature,True,False,,,,
+normal,60,2,10,isolation_forest,True,False,,,,
+normal,61,2,4,signature,True,False,,,,
+normal,61,2,4,isolation_forest,True,False,,,,
+normal,62,2,4,signature,True,False,,,,
+normal,62,2,4,isolation_forest,True,False,,,,
+normal,63,2,4,signature,True,False,,,,
+normal,63,2,4,isolation_forest,True,False,,,,
+normal,64,2,7,signature,True,False,,,,
+normal,64,2,7,isolation_forest,True,False,,,,
+normal,65,2,9,signature,True,False,,,,
+normal,65,2,9,isolation_forest,True,False,,,,
+normal,66,2,12,signature,True,False,,,,
+normal,66,2,12,isolation_forest,True,False,,,,
+normal,67,2,31,signature,True,False,,,,
+normal,67,2,31,isolation_forest,True,False,,,,
+normal,68,2,40,signature,True,False,,,,
+normal,68,2,40,isolation_forest,True,False,,,,
+normal,69,2,40,signature,True,False,,,,
+normal,69,2,40,isolation_forest,True,False,,,,
+normal,70,2,49,signature,True,False,,,,
+normal,70,2,49,isolation_forest,True,False,,,,
+normal,71,2,55,signature,True,False,,,,
+normal,71,2,55,isolation_forest,True,False,,,,
+normal,72,2,60,signature,True,False,,,,
+normal,72,2,60,isolation_forest,True,False,,,,
