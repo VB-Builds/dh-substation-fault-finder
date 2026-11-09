@@ -68,7 +68,7 @@ Residuals are flow-weighted return-temperature excess, flow and energy deviation
 ## Data sources
 
 - Weather: Open-Meteo historical archive, hourly 2 m temperature, Zurich, 2022-2023 (CC BY 4.0). Weather data by Open-Meteo.com.
-- Real substations: "PreDist" labelled district-heating dataset, Zenodo, doi:10.5281/zenodo.17522255 (CC BY 4.0). Downloaded on demand, not stored in this repo.
+- Real substations: "PreDist" labelled district-heating dataset, Zenodo, doi:10.5281/zenodo.17522255 (CC BY 4.0). Raw data are downloaded on demand into `cache/`, not stored here; `docs/predist/` holds this repo's per-event results, including the dataset's fault-label text (CC BY 4.0, attribution as above).
 - All other substations, faults and tariffs are simulated.
 
 ## What is not verified yet

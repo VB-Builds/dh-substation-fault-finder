@@ -1,7 +1,31 @@
-{"claim": "An open-source tool that spots district-heating substations returning water too hot.",
- "data_label": "simulated substations, real Zurich weather (Open-Meteo)",
- "stats": [["48/48", "injected faults detected", "green"], ["1", "false alarm in 252 healthy", "accent"], ["30/30", "top-10% list truly faulty", "amber"]],
- "limit": "Real-data recall is only 40% and no field-confirmed faults yet.",
- "alt": "Scatter of return versus outdoor temperature: one substation's red points sit far above its green healthy line and the grey cloud of healthy substations, next to a ranked bar list of faulty substations in CHF per year.",
- "hashtags": ["#DistrictHeating", "#IoT", "#FaultDetection", "#OpenSource", "#EnergyEfficiency"],
- "post": "A district-heating substation that sends water back too hot wastes energy and raises costs for the whole network, but nobody notices because the building stays warm.\n\nI built an open-source fault finder for it. It learns each substation's own healthy signature from a year of hourly meter data, flags deviations, names the likely fault from an explainable rule library (fouled exchanger, bypass, stuck valve, wrong heating curve, circulation, sensor swap or drift, missing night setback) and ranks substations by estimated CHF per year.\n\nMeasured on a simulated 300-substation network with real Zurich weather and 48 injected faults: all 48 detected, 1 false alarm among 252 healthy substations, and the top 10% of the work list were all truly faulty. An unsupervised isolation forest had 11 false alarms on the same data.\n\nOn a public labelled benchmark of real substations the picture is humbler: 21 of 52 faults caught before the customer report, with no alarms on 61 normal periods.\n\nNot verified: field-confirmed fault types, and the CHF tariff is illustrative.\n\nHow do you handle faults that never make a customer call?\n\nCode: https://github.com/Usernamepersonperson/dh-substation-fault-finder"}
+{
+  "claim": "An open-source tool that spots district-heating substations returning water too hot.",
+  "data_label": "simulated substations, real Zurich weather (Open-Meteo)",
+  "stats": [
+    [
+      "48/48",
+      "simulated faults detected",
+      "green"
+    ],
+    [
+      "1",
+      "false alarm, 252 simulated healthy",
+      "accent"
+    ],
+    [
+      "30/30",
+      "top-10% list truly faulty (sim.)",
+      "amber"
+    ]
+  ],
+  "limit": "Real-data recall is only 31-40% and no field-confirmed faults yet.",
+  "alt": "Scatter of return versus outdoor temperature: one substation's red points sit far above its green healthy line and the grey cloud of healthy substations, next to a ranked bar list of faulty substations in CHF per year.",
+  "hashtags": [
+    "#DistrictHeating",
+    "#IoT",
+    "#FaultDetection",
+    "#OpenSource",
+    "#EnergyEfficiency"
+  ],
+  "post": "A district-heating substation that sends water back too hot wastes energy and raises costs for the whole network, but nobody notices because the building stays warm.\n\nI built an open-source fault finder for it. It learns each substation's own healthy signature from a year of hourly meter data, flags deviations, names the likely fault from an explainable rule library (fouled exchanger, bypass, stuck valve, wrong heating curve, circulation, sensor swap or drift, missing night setback) and ranks substations by estimated CHF per year.\n\nMeasured on a simulated 300-substation network with real Zurich weather and 48 injected faults: all 48 detected, 1 false alarm among 252 healthy substations, and the top 10% of the work list were all truly faulty. An unsupervised isolation forest had 11 false alarms on the same data.\n\nOn a public labelled benchmark of real substations the picture is humbler: the isolation forest caught 21 of 52 faults before the customer report and my signature method 16, with 0 and 1 alarms on 61 normal periods.\n\nNot verified: field-confirmed fault types, and the CHF tariff is illustrative.\n\nHow do you handle faults that never make a customer call?\n\nCode: https://github.com/Usernamepersonperson/dh-substation-fault-finder"
+}
