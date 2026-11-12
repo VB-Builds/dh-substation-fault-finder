@@ -80,4 +80,4 @@ Residuals are flow-weighted return-temperature excess, flow and energy deviation
 
 ## Licence
 
-MIT, Copyright (c) 2026 Victor Bonilla.
+MIT, Copyright (c) 2026 VB-Builds.

@@ -9,7 +9,7 @@ description = "Open-source fault detection for district-heating customer substat
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Victor Bonilla" }]
+authors = [{ name = "VB-Builds" }]
 dependencies = ["numpy>=1.26", "pandas>=2.1", "scikit-learn>=1.4", "matplotlib>=3.8"]
 
 [project.optional-dependencies]
